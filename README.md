@@ -1,4 +1,5 @@
 # 🔮 Customer Churn Prediction using Decision Tree
+![Decision Tree](tree_visualization.png)
 
 ## 📊 Project Overview
 Built a **Decision Tree classifier** to predict which customers will churn (cancel service). 
@@ -34,6 +35,13 @@ THEN Churn Probability = 75% → Offer retention discount
 text
 
 ## 🚀 How to Use
+
+**Prerequisites:** Make sure all files are in the same folder:
+- `predict_churn.py`
+- `decision_tree_churn_model.pkl`
+- `label_encoders.pkl`
+- `feature_names.csv`
+
 ```python
 from predict_churn import predict_churn
 
@@ -68,20 +76,3 @@ Github:https://github.com/DA-Oliseh
 
 📅 Project Date
 May 2026
-
-text
-
----
-
-## **STEP 22: Add a Project Image**
-
-### **Take a screenshot of your decision tree:**
-
-1. In Colab, run the visualization cell again
-2. Take a screenshot of the tree
-3. Save as `tree_visualization.png`
-4. Upload to GitHub (same way as files)
-5. Add this line to your README under the title:
-
-```markdown
-![Decision Tree Visualization](tree_visualization.png)
