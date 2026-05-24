@@ -1,5 +1,5 @@
 # 🔮 Customer Churn Prediction using Decision Tree
-![Decision Tree](tree_visualization(2).png)
+![Decision Tree](tree_visualization (2).png)
 
 ## 📊 Project Overview
 Built a **Decision Tree classifier** to predict which customers will churn (cancel service). 
